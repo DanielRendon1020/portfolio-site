@@ -2,6 +2,7 @@ import React from "react";
 import bg from "../../assets/bg-fade.jpg";
 import self from "../../assets/self.png";
 import "./header.css";
+import {DiHtml5, DiCss3, DiJavascript1, DiReact, DiMongodb} from "react-icons/di";
 
 const Header = () => {
   return (
@@ -22,6 +23,13 @@ const Header = () => {
         </p>
         <div className="self-circle">
           <img className="self" src={self} alt="me" />
+        </div>
+        <div className="langs">
+          <DiHtml5 className="html" />
+          <DiCss3 className="css" />
+          <DiJavascript1 className="js" />
+          <DiReact className="react" />
+          <DiMongodb className="mongo" />
         </div>
       </div>
     </div>
