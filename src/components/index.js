@@ -1,0 +1,5 @@
+export {default as Aside} from './aside/Aside'
+export {default as Extra} from './extra/Extra'
+export {default as Header} from './header/Header'
+export {default as Projects} from './projects/Projects'
+export {default as Skills} from './skills/Skills'
