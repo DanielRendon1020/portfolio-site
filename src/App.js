@@ -1,17 +1,21 @@
-import { Aside, Extra, Header, Projects, Skills } from "./components";
+import { Aside, Extra, Header, Progress, Skills } from "./components";
 import "./App.css";
+import { LANG_LEVEL } from "./contexts/LanguagesContext";
+import LanguagesContext from "./contexts/LanguagesContext";
 
 function App() {
   return (
-    <div>
+    <LanguagesContext.Provider value={LANG_LEVEL}>
       <div>
-        <Header />
-        <Projects />
+        <header>
+          <Header />
+        </header>
+        <Progress />
+        <Skills />
+        <Aside />
+        <Extra />
       </div>
-      <Skills />
-      <Aside />
-      <Extra />
-    </div>
+    </LanguagesContext.Provider>
   );
 }
 

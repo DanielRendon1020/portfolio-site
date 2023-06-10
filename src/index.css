@@ -9,11 +9,23 @@
     --gradient-bg: linear-gradient(90deg, rgba(15,19,35,1) 0%, rgba(18,25,46,1) 50%, rgba(15,19,35,1) 100%);
 
     --color-text: #d1d3f7;
+    --color-text-sc: #fea761;
     --color-btn-pr: #fea761;
     --color-btn-sc: #4d87f4;
     --color-bg: #0f1223;
     
     --color-change: color-change-2x 2s linear infinite alternate both
+}
+
+
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    color: var(--color-btn-pr);
+  }
+  100% {
+    color: var(--color-btn-sc);
+  }
 }
 
 
