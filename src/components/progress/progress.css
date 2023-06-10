@@ -5,20 +5,59 @@
     gap: 2rem;
 }
 
+
+#training-title {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    margin: 2rem;
+}
+
 #project {
     position: relative;
     font-family: var(--font-family);
     color: var(--color-text);
     line-height: 1.5;
     text-align: center;
+    
+}
+
+#img-container {
+    position: relative;
+    object-fit: cover;
+}
+
+#project:hover #project-img {
+    object-position: 100% 0;
+    filter: brightness(.1) contrast(70%) sepia(100%) hue-rotate(170deg);
 }
 
 #project-img {
+    border-radius: 10px;
     width: 20rem;
     height: 20rem;
     object-fit: cover;
-    filter: brightness(.1) contrast(50%) sepia(100%) hue-rotate(170deg);
-    border-radius: 5px;
+    object-position: 0 0;
+    filter: brightness(.05) contrast(50%) sepia(100%) hue-rotate(170deg);
+    transition: object-position 8000ms linear, filter 500ms ease-in-out;
+}
+
+
+#github-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .25rem;
+    margin: .25rem;
+    opacity: .3;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: var(--color-bg);
+    transition: 100ms;
+}
+
+#github-link:hover {
+    opacity: .8;
+    font-size: 2.5rem;
 }
 
 #project-info-container {

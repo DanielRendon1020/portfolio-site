@@ -3,6 +3,7 @@ import { useContext } from "react";
 import LanguagesContext from "../../contexts/LanguagesContext";
 import "./progress.css";
 import { images } from "../../assets/imgExport";
+import {SiGithub} from 'react-icons/si'
 
 function TrainingProjects({ project }) {
   const languageIcons = useContext(LanguagesContext);
@@ -16,9 +17,11 @@ function TrainingProjects({ project }) {
 
   return (
     <div id="project">
-      <a href={link} target="_blank">
+      <div id="img-container">
         <img id="project-img" src={images[img]} alt={name} />
-      </a>
+        <a id="github-link" href={link} target="_blank"><SiGithub/></a>
+      </div>
+
       <div id="project-info-container">
         <h3 id="project-title">{name}</h3>
         {/* Only using this to render out embedded tags in the description */}

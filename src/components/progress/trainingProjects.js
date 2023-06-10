@@ -10,7 +10,7 @@ export const trainingProjects = [
       },
       {
         name: "HTML Form",
-        desc: "Getting a bit more comfortable with HTML and CSS. This is a simple form that has a sprinkle of JS to see if you won an all exclusive vacation of a lifetime to a location of your choosing so come on down!",
+        desc: "Getting a bit more comfortable with HTML and CSS. This is a simple form that has a sprinkle of JS.",
         img: "html-form.jpg",
         link: 'https://github.com/DanielRendon1020/HTML-Improved-Form',
         langs: ['html', 'css', 'javascript']
