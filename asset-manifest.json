@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.19ee7828.css",
+    "main.js": "/static/js/main.72dfb826.js",
+    "static/media/bg.png": "/static/media/bg.730ce5b78f78d8a1e7d2.png",
+    "static/media/bg-fade.jpg": "/static/media/bg-fade.b4ec242e7f7ea75fcd9d.jpg",
+    "static/media/html-form.jpg": "/static/media/html-form.832c3d6609cb88a20ef6.jpg",
+    "static/media/self.png": "/static/media/self.b7712a73de68c4f73807.png",
+    "static/media/restrant.jpg": "/static/media/restrant.a18e9dc3b12802767f3a.jpg",
+    "static/media/montys-mineral-spa.jpg": "/static/media/montys-mineral-spa.5c0e5ff53a54ed87de36.jpg",
+    "static/media/css-notepad.jpg": "/static/media/css-notepad.e406710a003c01c93d64.jpg",
+    "static/media/react-a-mole.jpg": "/static/media/react-a-mole.5716703c87b3628e4334.jpg",
+    "static/media/whack-a-tag.jpg": "/static/media/whack-a-tag.a251c574390ac95ea415.jpg",
+    "static/media/mini-game.jpg": "/static/media/mini-game.2775a4c3101fefcf8b8b.jpg",
+    "static/media/breadcrud.jpg": "/static/media/breadcrud.86fae36be8c0e2f20b03.jpg",
+    "static/media/first-repo.jpg": "/static/media/first-repo.cc15571ac4a1f433ec04.jpg",
+    "static/media/react-redux.jpg": "/static/media/react-redux.edff96757c7056035b4c.jpg",
+    "index.html": "/index.html",
+    "main.19ee7828.css.map": "/static/css/main.19ee7828.css.map",
+    "main.72dfb826.js.map": "/static/js/main.72dfb826.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19ee7828.css",
+    "static/js/main.72dfb826.js"
+  ]
+}
