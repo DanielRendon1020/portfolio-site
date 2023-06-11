@@ -5,30 +5,35 @@
 }
 
 #skills-container {
+    position: relative;
     display: flex;
     overflow-x: auto;
     width: 100%;
     padding: 1rem;
     scrollbar-width: thin;
-    scrollbar-color: var(--color-text) var(--color-btn-pr);
+    scrollbar-color: var(--color-btn-sc) var(--color-bg);
+    scroll-behavior: smooth;
 }
 
 #skills-container::-webkit-scrollbar {
     width: 1rem;
     border-radius: .5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #skills-container::-webkit-scrollbar-track {
-    background-color: var(--color-btn-pr);
+    background-color: var(--color-bg);
 }
 
 #skills-container::-webkit-scrollbar-thumb {
-    background-color: var(--color-text);
+    background-color: var(--color-btn-pr);
     border-radius: .5rem;
 }
 
 #skills-container::-webkit-scrollbar-thumb:hover {
-    background-color: var(--color-btn-sc);
+    background-color: var(--color-btn-pr-dr);
 }
 
 .language-item {
@@ -71,4 +76,10 @@
 .language-icon {
     margin-top: 1rem;
     font-size: 3rem;
+}
+
+@media (max-width: 678px) {
+    .language-item {
+        margin: 0 .75rem;
+    }
 }
