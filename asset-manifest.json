@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio-site/static/css/main.19ee7828.css",
-    "main.js": "/portfolio-site/static/js/main.122a831d.js",
+    "main.css": "/portfolio-site/static/css/main.86a35dd9.css",
+    "main.js": "/portfolio-site/static/js/main.4270bc36.js",
     "static/media/bg.png": "/portfolio-site/static/media/bg.730ce5b78f78d8a1e7d2.png",
     "static/media/bg-fade.jpg": "/portfolio-site/static/media/bg-fade.b4ec242e7f7ea75fcd9d.jpg",
-    "static/media/html-form.jpg": "/portfolio-site/static/media/html-form.832c3d6609cb88a20ef6.jpg",
     "static/media/self.png": "/portfolio-site/static/media/self.b7712a73de68c4f73807.png",
-    "static/media/restrant.jpg": "/portfolio-site/static/media/restrant.a18e9dc3b12802767f3a.jpg",
-    "static/media/montys-mineral-spa.jpg": "/portfolio-site/static/media/montys-mineral-spa.5c0e5ff53a54ed87de36.jpg",
-    "static/media/css-notepad.jpg": "/portfolio-site/static/media/css-notepad.e406710a003c01c93d64.jpg",
-    "static/media/react-a-mole.jpg": "/portfolio-site/static/media/react-a-mole.5716703c87b3628e4334.jpg",
-    "static/media/whack-a-tag.jpg": "/portfolio-site/static/media/whack-a-tag.a251c574390ac95ea415.jpg",
-    "static/media/mini-game.jpg": "/portfolio-site/static/media/mini-game.2775a4c3101fefcf8b8b.jpg",
-    "static/media/breadcrud.jpg": "/portfolio-site/static/media/breadcrud.86fae36be8c0e2f20b03.jpg",
-    "static/media/first-repo.jpg": "/portfolio-site/static/media/first-repo.cc15571ac4a1f433ec04.jpg",
-    "static/media/react-redux.jpg": "/portfolio-site/static/media/react-redux.edff96757c7056035b4c.jpg",
+    "static/media/html-form.jpg": "/portfolio-site/static/media/html-form.dbe4a95ed03775799bc3.jpg",
+    "static/media/restrant.jpg": "/portfolio-site/static/media/restrant.3e1e1ea5bcc4a6dca0e7.jpg",
+    "static/media/montys-mineral-spa.jpg": "/portfolio-site/static/media/montys-mineral-spa.e5bbfda680fc27b63a07.jpg",
+    "static/media/css-notepad.jpg": "/portfolio-site/static/media/css-notepad.83b19d7e5d8d5989c073.jpg",
+    "static/media/react-a-mole.jpg": "/portfolio-site/static/media/react-a-mole.a6786fe9385c125d8c8e.jpg",
+    "static/media/whack-a-tag.jpg": "/portfolio-site/static/media/whack-a-tag.5b549fb57d6ebf302e3e.jpg",
+    "static/media/mini-game.jpg": "/portfolio-site/static/media/mini-game.089c1a5c24f8eb48df92.jpg",
+    "static/media/react-redux.jpg": "/portfolio-site/static/media/react-redux.5c3f4559e873f1730530.jpg",
+    "static/media/breadcrud.jpg": "/portfolio-site/static/media/breadcrud.b8758732ba02f919f66f.jpg",
+    "static/media/first-repo.jpg": "/portfolio-site/static/media/first-repo.134280c58b4ebefb2066.jpg",
     "index.html": "/portfolio-site/index.html",
-    "main.19ee7828.css.map": "/portfolio-site/static/css/main.19ee7828.css.map",
-    "main.122a831d.js.map": "/portfolio-site/static/js/main.122a831d.js.map"
+    "main.86a35dd9.css.map": "/portfolio-site/static/css/main.86a35dd9.css.map",
+    "main.4270bc36.js.map": "/portfolio-site/static/js/main.4270bc36.js.map"
   },
   "entrypoints": [
-    "static/css/main.19ee7828.css",
-    "static/js/main.122a831d.js"
+    "static/css/main.86a35dd9.css",
+    "static/js/main.4270bc36.js"
   ]
 }
