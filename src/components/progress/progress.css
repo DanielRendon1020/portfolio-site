@@ -29,7 +29,7 @@
 
 #project:hover #project-img {
     object-position: 100% 0;
-    filter: brightness(.1) contrast(70%) sepia(100%) hue-rotate(170deg);
+    filter: brightness(.12) contrast(70%) sepia(100%) hue-rotate(170deg);
 }
 
 #project-img {
@@ -38,7 +38,7 @@
     height: 20rem;
     object-fit: cover;
     object-position: 0 0;
-    filter: brightness(.05) contrast(50%) sepia(100%) hue-rotate(170deg);
+    filter: brightness(.05) contrast(60%) sepia(100%) hue-rotate(170deg);
     transition: object-position 8000ms linear, filter 500ms ease-in-out;
 }
 
