@@ -18,7 +18,7 @@ function TrainingProjects({ project }) {
   return (
     <div id="project">
       <div id="img-container">
-        <img id="project-img" src={images[img]} alt={name} />
+        <img id="project-img" loading="lazy" src={images[img]} alt={name} />
         <a id="github-link" href={link} target="_blank"><SiGithub/></a>
       </div>
 

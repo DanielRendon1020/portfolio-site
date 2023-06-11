@@ -17,7 +17,7 @@ const Header = () => {
             <h1 id="name">Daniel Rendon</h1>
             <hr id="line" />
             <h3 id="tagline">
-              Full Stack Developer <small>(...in progress)</small>
+              Full Stack Developer <small>(...in&nbsp;progress)</small>
             </h3>
           </div>
           <p id="description">
