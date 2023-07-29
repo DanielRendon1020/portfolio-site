@@ -13,6 +13,7 @@
     scrollbar-width: thin;
     scrollbar-color: var(--color-btn-sc) var(--color-bg);
     scroll-behavior: smooth;
+    user-select: none;
 }
 
 #skills-container::-webkit-scrollbar {

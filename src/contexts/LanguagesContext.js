@@ -1,5 +1,7 @@
 import React from "react";
 
+//https://react-icons.github.io/react-icons/
+
 //Devicons
 import {
   DiHtml5,
@@ -8,6 +10,7 @@ import {
   DiReact,
   DiMongodb,
   DiPython,
+  DiNodejsSmall
 } from "react-icons/di";
 
 //Tabler Icons
@@ -21,6 +24,9 @@ import {
   SiPostgresql,
   SiTailwindcss,
   SiNextdotjs,
+  SiThreedotjs,
+  SiMui,
+  SiExpress
 } from "react-icons/si";
 
 //Ionicons 5
@@ -51,9 +57,21 @@ export const LANG_LEVEL = {
     icon: <DiMongodb />,
     level: 1.5,
   },
+  postgresql: {
+    icon: <SiPostgresql />,
+    level: 2,
+  },
   react: {
     icon: <DiReact />,
     level: 2,
+  },
+  nodejs: {
+    icon: <DiNodejsSmall />,
+    level: 2.5
+  },
+  express: {
+    icon: <SiExpress />,
+    level: 2.5
   },
   redux: {
     icon: <TbBrandRedux />,
@@ -67,12 +85,12 @@ export const LANG_LEVEL = {
     icon: <SiBootstrap />,
     level: 2.5,
   },
-  postgresql: {
-    icon: <SiPostgresql />,
-    level: "x",
-  },
   python: {
     icon: <DiPython />,
+    level: "x",
+  },
+  threejs: {
+    icon: <SiThreedotjs />,
     level: "x",
   },
   typescript: {
@@ -85,6 +103,10 @@ export const LANG_LEVEL = {
   },
   tailwind: {
     icon: <SiTailwindcss />,
+    level: "x",
+  },
+  mui: {
+    icon: <SiMui />,
     level: "x",
   }
 };
