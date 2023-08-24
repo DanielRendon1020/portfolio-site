@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio-site/static/css/main.93468af6.css",
-    "main.js": "/portfolio-site/static/js/main.a8b0fff0.js",
+    "main.css": "/portfolio-site/static/css/main.2091051c.css",
+    "main.js": "/portfolio-site/static/js/main.5c307d28.js",
     "static/media/bg.png": "/portfolio-site/static/media/bg.730ce5b78f78d8a1e7d2.png",
     "static/media/bg-fade.jpg": "/portfolio-site/static/media/bg-fade.b4ec242e7f7ea75fcd9d.jpg",
     "static/media/self.png": "/portfolio-site/static/media/self.b7712a73de68c4f73807.png",
     "static/media/html-form.jpg": "/portfolio-site/static/media/html-form.dbe4a95ed03775799bc3.jpg",
     "static/media/restrant.jpg": "/portfolio-site/static/media/restrant.3e1e1ea5bcc4a6dca0e7.jpg",
+    "static/media/sequelizers-apparel.jpg": "/portfolio-site/static/media/sequelizers-apparel.324cb47b65bbf76147dd.jpg",
     "static/media/montys-mineral-spa.jpg": "/portfolio-site/static/media/montys-mineral-spa.e5bbfda680fc27b63a07.jpg",
     "static/media/css-notepad.jpg": "/portfolio-site/static/media/css-notepad.83b19d7e5d8d5989c073.jpg",
     "static/media/react-a-mole.jpg": "/portfolio-site/static/media/react-a-mole.a6786fe9385c125d8c8e.jpg",
@@ -16,11 +17,11 @@
     "static/media/breadcrud.jpg": "/portfolio-site/static/media/breadcrud.b8758732ba02f919f66f.jpg",
     "static/media/first-repo.jpg": "/portfolio-site/static/media/first-repo.134280c58b4ebefb2066.jpg",
     "index.html": "/portfolio-site/index.html",
-    "main.93468af6.css.map": "/portfolio-site/static/css/main.93468af6.css.map",
-    "main.a8b0fff0.js.map": "/portfolio-site/static/js/main.a8b0fff0.js.map"
+    "main.2091051c.css.map": "/portfolio-site/static/css/main.2091051c.css.map",
+    "main.5c307d28.js.map": "/portfolio-site/static/js/main.5c307d28.js.map"
   },
   "entrypoints": [
-    "static/css/main.93468af6.css",
-    "static/js/main.a8b0fff0.js"
+    "static/css/main.2091051c.css",
+    "static/js/main.5c307d28.js"
   ]
 }
