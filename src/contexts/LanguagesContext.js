@@ -10,7 +10,8 @@ import {
   DiReact,
   DiMongodb,
   DiPython,
-  DiNodejsSmall
+  DiNodejsSmall,
+  DiSass
 } from "react-icons/di";
 
 //Tabler Icons
@@ -87,7 +88,7 @@ export const LANG_LEVEL = {
   },
   python: {
     icon: <DiPython />,
-    level: "x",
+    level: "2",
   },
   threejs: {
     icon: <SiThreedotjs />,
@@ -108,6 +109,10 @@ export const LANG_LEVEL = {
   mui: {
     icon: <SiMui />,
     level: "x",
+  },
+  scss: {
+    icon: <DiSass />,
+    level: "3",
   }
 };
 
