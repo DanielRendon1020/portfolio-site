@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;400;600;800&family=Questrial&display=swap');
+
+$font-family: 'Plus Jakarta Sans', sans-serif;
+
+$max-width: 95rem;
+
+$gradient-fade: linear-gradient(180deg, rgba(15, 19, 35, 0) 0%, rgba(15, 19, 32, 1) 100%);
+$gradient-text: linear-gradient(132deg, rgba(164, 63, 151, 1) 0%, rgba(58, 43, 95, 1) 100%);
+$gradient-rad: radial-gradient(circle, rgba(15, 19, 35, 0.7679446778711485) 0%, rgba(15, 19, 35, 1) 100%);
+$gradient-bg: linear-gradient(90deg, rgba(15, 19, 35, 1) 0%, rgba(18, 25, 46, 1) 50%, rgba(15, 19, 35, 1) 100%);
+
+$color-text: #d1d3f7;
+$color-text-sc: #fea761;
+$color-btn-pr: #fea761;
+$color-btn-pr-dr: #c5824b;
+$color-btn-sc: #4d87f4;
+$color-bg: #0f1223;
+
+$color-change: color-change-2x 2s linear infinite alternate both;
+
+@keyframes color-change-2x {
+    0% {
+        color: $color-btn-pr;
+    }
+
+    100% {
+        color: $color-btn-sc;
+    }
+}
+
+@mixin scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: $color-btn-sc $color-bg;
+    scrollbar-gutter: stable both-edges;
+
+    &::-webkit-scrollbar {
+        width: .6rem;
+        height: .6rem;
+        border-radius: .5rem;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $color-btn-pr;
+        border-radius: .5rem;
+
+        &:hover {
+            background-color: $color-btn-pr-dr;
+        }
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: $color-bg;
+    }
+
+}
+

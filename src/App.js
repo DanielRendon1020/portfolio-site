@@ -1,5 +1,5 @@
 import { Aside, Extra, Header, Progress, Skills } from "./components";
-import "./App.css";
+import "./css/style.css";
 import { LANG_LEVEL } from "./contexts/LanguagesContext";
 import LanguagesContext from "./contexts/LanguagesContext";
 

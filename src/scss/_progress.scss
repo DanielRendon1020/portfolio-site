@@ -1,3 +1,6 @@
+@use './vars';
+
+
 .training {
     display: flex;
     flex-wrap: wrap;
@@ -6,30 +9,30 @@
     padding-inline: 2rem;
 }
 
-
 #training-title {
-    font-family: var(--font-family);
-    color: var(--color-text);
+    font-family: vars.$font-family;
+    color: vars.$color-text;
     margin: 2rem;
 }
 
 #project {
     position: relative;
-    font-family: var(--font-family);
-    color: var(--color-text);
+    font-family: vars.$font-family;
+    color: vars.$color-text;
     line-height: 1.5;
     text-align: center;
-    
+
+    &:hover {
+        #project-img {
+            object-position: 100% 0;
+            filter: brightness(.12) contrast(70%) sepia(100%) hue-rotate(170deg);
+        }
+    }
 }
 
 #img-container {
     position: relative;
     object-fit: cover;
-}
-
-#project:hover #project-img {
-    object-position: 100% 0;
-    filter: brightness(.12) contrast(70%) sepia(100%) hue-rotate(170deg);
 }
 
 #project-img {
@@ -42,7 +45,6 @@
     transition: object-position 8000ms linear, filter 500ms ease-in-out;
 }
 
-
 #github-link {
     position: absolute;
     top: 0;
@@ -52,13 +54,31 @@
     opacity: .3;
     border-radius: 10px;
     font-size: 2rem;
-    color: var(--color-bg);
+    color: vars.$color-bg;
     transition: 100ms;
+
+    &:hover {
+        opacity: .8;
+        font-size: 2.5rem;
+    }
 }
 
-#github-link:hover {
-    opacity: .8;
-    font-size: 2.5rem;
+#project-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: .25rem;
+    margin: .25rem;
+    opacity: .3;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: vars.$color-bg;
+    transition: 100ms;
+
+    &:hover {
+        opacity: .8;
+        font-size: 2.5rem;
+    }
 }
 
 #project-info-container {
@@ -74,6 +94,10 @@
 }
 
 #langs-used {
-    color: var(--color-text-sc);
+    color: vars.$color-text-sc;
     font-size: 2rem;
+
+    i {
+        margin: .25rem;
+    }
 }
