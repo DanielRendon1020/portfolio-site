@@ -2,7 +2,7 @@ import React from "react";
 import { useContext } from "react";
 import bg from "../../assets/bg-fade.jpg";
 import self from "../../assets/self.png";
-import "./header.css";
+import "../../css/style.css";
 import LanguagesContext from "../../contexts/LanguagesContext";
 
 const Header = () => {

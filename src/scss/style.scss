@@ -1,0 +1,31 @@
+@use './vars';
+@use './aside';
+@use './extra';
+@use './header';
+@use './progress';
+@use './skills';
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+    &::selection {
+        color: vars.$color-bg;
+        background-color: vars.$color-btn-pr;
+    }
+}
+
+body {
+    @include vars.scrollbar;
+
+    background: vars.$color-bg;
+    max-width: vars.$max-width;
+    margin-inline: auto;
+}
+
+hr {
+    opacity: .6;
+}

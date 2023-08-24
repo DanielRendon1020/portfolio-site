@@ -1,7 +1,7 @@
 import React from "react";
 import { trainingProjects } from "./trainingProjects.js";
 import TrainingProjects from "./TrainingProjects.jsx";
-import "./progress.css";
+import "../../css/style.css";
 
 function Progress() {
   return (

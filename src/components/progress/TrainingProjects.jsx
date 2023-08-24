@@ -1,7 +1,7 @@
 import React from "react";
 import { useContext } from "react";
 import LanguagesContext from "../../contexts/LanguagesContext";
-import "./progress.css";
+import "../../css/style.css";
 import { images } from "../../assets/imgExport";
 import {SiGithub} from 'react-icons/si'
 

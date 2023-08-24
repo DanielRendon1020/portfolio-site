@@ -1,4 +1,4 @@
-/* Variables in index file */
+@use './vars';
 
 #header {
     display: flex;
@@ -15,8 +15,8 @@
 }
 
 #head-title {
-    font-family: var(--font-family);
-    color: var(--color-text);
+    font-family: vars.$font-family;
+    color: vars.$color-text;
     line-height: 1.5;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -41,7 +41,6 @@
     flex-direction: column;
     align-items: flex-start;
 }
-
 
 #right-col-center {
     display: flex;
@@ -68,12 +67,11 @@
     font-size: clamp(1rem, 5.5vw, 1.25rem);
     padding: 0 3rem;
     text-align: end;
-    text-shadow: 0 0 5px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0)
-}
+    text-shadow: 0 0 5px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
 
-#description code {
-    -webkit-animation: var(--color-change);
-            animation: var(--color-change);
+    code {
+        animation: vars.$color-change;
+    }
 }
 
 #self {
@@ -85,7 +83,7 @@
     height: auto;
     aspect-ratio: 1;
     border-radius: 50%;
-    box-shadow: inset 0 0 30px var(--color-btn-pr);
+    box-shadow: inset 0 0 30px vars.$color-btn-pr;
     display: flex;
     justify-content: center;
     align-items: baseline;
@@ -95,13 +93,12 @@
     animation: vibrate-1 8s linear infinite both;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-}
 
-#self-circle:hover {
-    box-shadow: inset 0 0 50px var(--color-btn-pr);
-    cursor: wait;
-    -webkit-animation: vibrate-1 .2s linear infinite both;
-    animation: vibrate-1 .2s linear infinite both;
+    &:hover {
+        box-shadow: inset 0 0 50px vars.$color-btn-pr;
+        cursor: wait;
+        animation: vibrate-1 .2s linear infinite both;
+    }
 }
 
 #langs {
@@ -156,32 +153,6 @@
         display: flex;
         flex-direction: column;
         padding: 1rem 0;
-    }
-}
-
-@-webkit-keyframes vibrate-1 {
-    0% {
-        transform: translate(0);
-    }
-
-    20% {
-        transform: translate(-2px, 2px);
-    }
-
-    40% {
-        transform: translate(-2px, -2px);
-    }
-
-    60% {
-        transform: translate(2px, 2px);
-    }
-
-    80% {
-        transform: translate(2px, -2px);
-    }
-
-    100% {
-        transform: translate(0);
     }
 }
 

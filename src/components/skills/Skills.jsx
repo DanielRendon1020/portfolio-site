@@ -1,5 +1,5 @@
 import React from "react";
-import "./skills.css";
+import "../../css/style.css";
 import LanguagesContext from "../../contexts/LanguagesContext";
 
 const Skills = () => {
