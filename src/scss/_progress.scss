@@ -63,6 +63,24 @@
     }
 }
 
+#project-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: .25rem;
+    margin: .25rem;
+    opacity: .3;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: vars.$color-bg;
+    transition: 100ms;
+
+    &:hover {
+        opacity: .8;
+        font-size: 2.5rem;
+    }
+}
+
 #project-info-container {
     position: absolute;
     top: 50%;
@@ -78,4 +96,8 @@
 #langs-used {
     color: vars.$color-text-sc;
     font-size: 2rem;
+
+    i {
+        margin: .25rem;
+    }
 }
